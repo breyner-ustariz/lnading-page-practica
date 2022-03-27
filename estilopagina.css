@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Hurricane&display=swap');
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 190px;
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#cabecera {
+width: 100%;
+height: 150px;
+left: 0;
+top: 0;
+position: fixed;
+background-color: #ffffff;
+margin-bottom: 100px;
+  z-index: 1; 
+}
+
+
+#title {
+    float: right;
+    margin-right: 100px;
+    font-size: 50px;
+}
+
+#header-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 100px;
+}
+
+#nav-bar {
+    
+        display: flex;
+        background-color: #000;
+        justify-content: space-between;
+        padding: 10px 30px;
+        margin-bottom: 0;
+        
+
+}
+.nav-link {
+    background-color: #000;
+    color: red;
+    text-decoration: none;
+    font-size: 24px;
+}
+a:hover {
+    color: #d3d3d3;
+}
+
+#breyner {
+    padding: 10px;
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 0;
+    
+}
+#breyner p {
+    font-size: 24px;
+    
+}
+#breyner h2{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3em;
+    text-shadow: 0 10px 10px gray;
+}
+hr {
+    margin-bottom: 15px;
+    border: 2px dashed rgb(255, 0, 0);
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+#frase { 
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Hurricane', cursive;
+    font-size: 3em;
+    text-align: center;
+    width: 400px;
+    font-weight: 900;
+    line-height: 80%;
+}
+video { width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    z-index: 0;
+
+}
+#video {
+    
+    z-index: 0;
+    text-align: center;
+        margin: 0 auto;
+}
+
+#planes {
+    display: flex;
+    color: #ffffff;
+    margin-top: 0;
+    padding: 10px 40px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+
+#formulario {
+    padding: 10px;
+    width: 400px;
+    margin:0 auto;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 0px;
+    
+}
+.plan1{margin: 0;
+    width: 300px;
+    padding: 20;
+    color: #000;
+    background-color: #d3d3d3;
+    border-radius: 21px;
+    border: 4px solid red;
+}
+.valor{
+    text-align: center;
+    background-color: #fd0000;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 24px;
+    font-weight: 200;
+    font-family: fantasy;
+    padding: 15px;
+    margin-bottom: 15px;
+    -webkit-box-shadow:inset 5px 5px 40px #424242;
+    -moz-box-shadow:inset 5px 5px 40px #353535;
+    box-shadow:inset 5px 5px 40px #464545;
+    cursor:default
+}
+.titulplan {
+    margin: 0 auto;
+    padding-top: 10%;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    color: red;
+}
+
+
+
+.btnplan {
+    background-color: #000;
+    color: red;
+    padding: 20px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btnplan:hover{
+    background-color: rgb(24, 24, 24);
+}
+.box-caja {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.input-suscrip {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    background-color: rgba(182, 181, 181, 0.404);
+}
+#titulosuscrip {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 5px red;
+}
+#submit {
+    padding: 10px;
+    background-color: #fd0000;
+    color: #ffffff;
+    font-family: monospace;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#submit:hover {
+    background-color: #fc6868;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    
+}
+#box-img {
+    margin-top: 30px;
+    margin-right: 100px;
+    float: right;
+}
+#box-img1 {
+
+    margin-left: 100px;
+    margin-top: 30px;
+   float: left;
+}
+.whatsappgmail {
+    
+    margin: 10px;
+    width: 30px;
+    height: auto;
+    
+
+}
+.footer-link {
+
+    margin: 10px;
+    width: 30px;
+    height: auto;
+    
+}
+
+        
+
+#fecha{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-style: italic;
+    padding-top: 40px;
+    text-align: center;
+}   
+
+
+@media only screen and (max-width: 800px)
+
+{
+
+    #cabecera {
+        width: 100%;
+        height: 100px;
+        background-color: #ffffff;
+        position: absolute;
+        }
+        
+        #nav-bar {
+    
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            margin-bottom: 200px;
+            padding: 0%;
+    
+    }
+
+    .nav-link {
+        width:100%;
+        border: 2px solid bisque;
+        background-color: #000000;
+        color: #ff0000;
+        font-size: 16px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+
+    }
+    #header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #title {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        letter-spacing: 20px;
+        margin-bottom: 10px;
+    }
+    
+    #header-img {
+        width: 300px;
+        display: block;
+        text-align: center;
+    }
+    #breyner {
+
+        margin-top: 20px;
+    }
+
+    #planes {
+        word-wrap: break-word;
+        display: block;
+        margin: 0 auto;
+                    }
+
+    .plan1 {
+        width: 450px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        
+    }
+    .box-caja {
+        display: block;
+        padding: 5px;
+        
+    }
+    .valor {
+        width: 80px;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+    .btnplan {
+        
+        font-size: 12px;
+        margin-bottom: 5px;
+        padding: 5px;
+        text-align: end;
+    }
+    #breyner {
+        
+        height: 150px;
+        margin-top: 150px;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        display: block;
+        text-align: center;
+        background-color: #ff9d9d;
+        margin-bottom: 10px;
+        
+        
+    }
+  
+}
